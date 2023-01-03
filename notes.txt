@@ -1,0 +1,9 @@
+# generate secret key
+from django.core.management.utils import get_random_secret_key
+len(50), default django=66
+
+
+# just random str
+from django.utils.crypto import get_random_string
+RANDOM_STRING_CHARS (ASCII and digits)
+get_random_string(66, RANDOM_STRING_CHARS)

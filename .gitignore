@@ -1,0 +1,9 @@
+# Editor
+.vscode
+
+# local env files
+.env
+prod.py
+*.sqlite3
+*.pyc
+*__pycache__
