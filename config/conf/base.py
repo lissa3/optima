@@ -22,7 +22,7 @@ DJANGO_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
 ]
-LOCAL_APPS = ["account"]
+LOCAL_APPS = ["account", "clients", "servs"]
 INSTALLED_APPS = DJANGO_APPS + LOCAL_APPS
 
 MIDDLEWARE = [
