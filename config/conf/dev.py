@@ -1,7 +1,7 @@
 from .base import *
 
 INTERNAL_IPS = ["127.0.0.1"]
-
+DEBUG = True
 
 # Debug Toolbar
 # INSTALLED_APPS.append("debug_toolbar")
